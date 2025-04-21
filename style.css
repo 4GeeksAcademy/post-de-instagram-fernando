@@ -1,0 +1,101 @@
+svg {
+    cursor: pointer;
+}
+
+section{
+    margin: 0 auto;
+    width: 500px;
+    height: 650px;
+    background-color: rgb(247, 247, 247);
+    border: 1pt black solid;
+}
+
+section > * {
+    max-width: 500px;
+}
+
+header{
+    display: flex;
+    width: 500px;
+    height: 6dvh;
+}
+
+.profile-image{
+    margin: 0 auto;
+    position: relative;
+    float: left;
+    width: 10%;
+    text-align: center;
+}
+
+.profile-image svg{
+    width: 50%;
+    height: auto;
+    margin-top: 1dvh;
+}
+
+.option-button svg{
+    width: auto;
+    height: 60%;
+    margin-top: 1dvh; 
+    gap: 2dvh;
+}
+
+.option-button{
+    margin: 0 auto;
+    position: relative;
+    float: left;
+    width: 10%;
+    text-align: center;
+}
+
+.name{
+    margin-top: 1vh;
+    position: relative;
+    float: left;
+    width: 80%;
+}
+
+.name h4,p {
+    margin: 0;
+    gap: 2px;
+}
+
+main{
+    max-width: 500px;
+}
+
+main img{
+    width: 500px;
+    height: auto;
+}
+
+.button-wrapper {
+    display: flex;
+    position:relative;
+    height: 4.5dvh;
+    margin: 2dvh;
+    gap: 1.6dvh;
+}
+
+
+.button-wrapper svg {
+    display: flex;
+}
+
+.button-wrapper svg {
+    display: flex;
+    float: right;
+}
+
+.last{
+    margin-left: auto;
+}
+
+.comments-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2dvh;
+    margin-right: 2dvh;
+    gap: 3.5dvh;
+}
